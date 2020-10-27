@@ -1,0 +1,76 @@
+.welcomeMessageRow {
+  background-image: url('/assets/welcome-bg-02.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-top: 16 px;
+}
+
+.welcomeMessageContainer {
+  display: flex;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  font-size: large;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 0px 10px rgba(0, 0, 0, 0.68);
+}
+
+.serviceCol {
+  background-color: white;
+  padding: 24px;
+}
+
+.priceCol {
+  text-align: right;
+  /* padding-right: 24px; */
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  top: -30px;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.priceRow {
+  position: relative;
+  top: -50px;
+  padding: 0px;
+}
+
+.priceImage {
+  min-width: 300px;
+  background-image: url('/assets/service-deco.png');
+  background-size: cover;
+  background-position: bottom;
+}
+
+.tagText {
+  padding: 16px;
+  font-size: large;
+}
+
+.imgDeco {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.tag {
+  width: 125px;
+  text-align: center;
+}
+
+.tagPrice {
+  width: 125px;
+  text-align: center;
+  padding-right: 0px;
+}
