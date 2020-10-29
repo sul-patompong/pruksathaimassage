@@ -15,29 +15,32 @@ export default function Home() {
         </Col>
       </Row>
       <Row>
-        <Col span={24}>
-          <h1>Pruksa Thai Massage</h1>
-          <h2>Tel. 07366256886 | Email: pruksathaimassage@gmail.com</h2>
+        <Col span={24} style={{padding: '8px'}}>
+          <h1>Welcome to Pruksa traditional Thai massage in Teddington</h1>
+          <h2>
+            Tel. <a href='tel:+07366256886'>07366256886</a> | Email:
+            <a href='mailto:pruksathaimassage@gmail.com'>
+              pruksathaimassage@gmail.com
+            </a>
+          </h2>
         </Col>
       </Row>
       <Row className={styles.welcomeMessageRow}>
         <Col span={20} offset={2}>
           <div className={styles.welcomeMessageContainer}>
             <p>
-              Welcome to Pruksa traditional Thai massage. Based in central
-              Teddington, we offer traditional Thai massage, Thai combination
-              massage, deep tissue massage, relaxing massage.{' '}
+              We specialise in authentic Thai massage by genuine Thai
+              therapists. We offer a traditional Thai massage including Deep
+              Tissue, Relaxing therapy, knots and muscles.
             </p>
             <p>
-              Whether you are looking for strong, deep massage or classic style
-              relaxation massage we are happy to provide you with the level of
-              massage that with consulting with you to ensure the best and most
-              enjoyable experience.{' '}
+              We are based in Broad Street in the heart of Teddington, 5 mins
+              walk from the Teddington train station, close to Twickenham,
+              Hampton and Kingston.
             </p>
             <p>
-              We are happy to see male and female clients and reduce the stress
-              of everyday life with a relaxing massage, or deal with knots and
-              muscle issues.
+              We are happy to see both male and female clients, and our aim is
+              to reduce the stress of our clients’ everyday life.
             </p>
           </div>
         </Col>
@@ -47,14 +50,13 @@ export default function Home() {
 
       <Row>
         <Col span={20} offset={2}>
-          <h1 style={{ marginBottom: '-10px' }}>Annoucements</h1>
+          <h1 style={{ marginBottom: '-10px' }}>Bookings</h1>
           <hr />
           <p>
             Please do not hesitate to phone to discuss your requirements and
             make an advanced booking. Parking is available near by. Due to the
             current COVID situation we are slowly coming back to treatments and
-            so currently only available Monday, Tuesday and Friday from 1pm to
-            9pm.
+            are currently only available on Monday to Friday 10.30-20.00
           </p>
         </Col>
       </Row>
@@ -63,15 +65,12 @@ export default function Home() {
         <Col span={20} offset={2}>
           <h1 style={{ marginBottom: '-10px' }}>Find us</h1>
           <hr />
-          <p>
-            Orange Tree clinic 23A, Broad Street, Teddington, TW11 8QZ (1st
-            Floor)
-          </p>
+          <p>23A, Broad Street, Teddington, TW11 8QZ (1st Floor)</p>
         </Col>
         <Col span={24}>
           <iframe
             style={{ width: '100%', border: 0, height: '450px', tabIndex: 0 }}
-            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.7413225195514!2d-0.3410181839034623!3d51.4261782796219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b7c969c25db%3A0x6b16e9ed77237e68!2sOrange%20Tree%20Clinic!5e0!3m2!1sen!2sth!4v1603210939725!5m2!1sen!2sth'
+            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.7388944329728!2d-0.34098418393392177!3d51.42622287962182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760b895a05cdc5%3A0xd846012ce70255c6!2sPruksa%20Thai%20Massage!5e0!3m2!1sen!2sth!4v1603997886454!5m2!1sen!2sth'
           ></iframe>
         </Col>
       </Row>
